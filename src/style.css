@@ -1,0 +1,44 @@
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: hsl(0, 0%, 90%);
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+input,
+button {
+	font-size: 20px;
+	margin: 10px;
+	margin-top: 40px;
+	margin-bottom: 50px;
+	padding: 10px 15px;
+	border-radius: 10px;
+	background-color: white;
+	border: black 1px solid;
+}
+
+.card {
+	background: linear-gradient(180deg, hsl(39, 100%, 80%), hsl(209, 100%, 80%));
+	border-radius: 20px;
+	padding: 0px 30px;
+	padding-bottom: 30px;
+	text-align: center;
+}
+
+.addressDisplay {
+	font-size: 50px;
+}
+
+.temperatureDisplay {
+	font-size: 40px;
+}
+
+.descriptionDisplay {
+	font-size: 20px;
+}
+
+.error {
+	font-size: 50px;
+	padding-top: 10px;
+}
